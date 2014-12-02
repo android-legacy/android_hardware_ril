@@ -72,6 +72,7 @@ static struct RIL_Env s_rilEnv = {
 };
 
 extern void RIL_startEventLoop();
+extern void RIL_setRilSocketName(char * s);
 
 static int make_argv(char * args, char ** argv)
 {
